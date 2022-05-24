@@ -23,8 +23,9 @@ console.log("________________let_______________");
 let music2 = "Rock";
 console.log("Music variable before block", music2);
 {
-    //Al redeclarar la variable se imprimira la segunda variable
+    
     let music2 = "Hip Hop";
     console.log("Music variable inside the block", music2);
 }
+//Al redeclarar la variable se imprimira la primera variable
 console.log("Music variable after block", music2);
