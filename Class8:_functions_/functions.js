@@ -6,7 +6,7 @@ Las funciones en JavaScript son objetos, un tipo especial de objetos:
     Se dice que las funciones son ciudadanos de primera clase porque pueden asignarse a un valor, y pueden pasarse como argumentos y usarse como un valor de retorno.
 */
 
-//Declared function
+//Declared function.
 
 function thisIsAFunction(){
     console.log("One");
