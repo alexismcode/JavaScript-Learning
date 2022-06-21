@@ -52,7 +52,7 @@ Animal.prototype.sound = function(){
     console.log("I make sounds because I am alive.")
 }
 Animal.prototype.greet = function(){
-    console.log(`Hello, I'm ${this.name}`)
+    console.log(`Hello, I'm ${this.name}!!`)
 }
 
 const snoopy = new Animal("Snoopy", "Male"),
