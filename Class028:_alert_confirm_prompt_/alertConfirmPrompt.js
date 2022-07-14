@@ -7,6 +7,6 @@ let notification = alert("Hello this is an alert");
 let confirmation = confirm("Hello this is a confirmation");
 let message = prompt("Hello this is prompt and allows the user to enter a value");
 
-console.log(notification);
-console.log(confirmation);
-console.log(message);
+console.log(notification); //undefined
+console.log(confirmation); //true or false
+console.log(message); // value or null
